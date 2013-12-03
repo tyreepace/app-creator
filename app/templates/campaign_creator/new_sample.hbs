@@ -1,0 +1,23 @@
+<h3> Create a new campaign </h3>
+<p>This is the builder template</p>
+TEXTFIELD1: {{textField1}}
+TEXTFIELD2: {{textField2}}
+{{sweepstakes-creator textField1=textField1}}
+
+<p>This is the view template</p>
+
+<form role="form">
+  <div class="form-group">
+    <input type="text" class="form-control" id="firstName" disabled>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="lastName" disabled>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" id="email" disabled>
+  </div>
+  <button type="submit" class="btn btn-default" {{action "submit"}}>Submit</button>
+</form>
+
+
+
